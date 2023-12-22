@@ -9,7 +9,7 @@ import ListingOverview from "./SalesOverview/listingOverview";
 const Dashboard = () => {
   return (
     <Box marginX="10" marginY="5">
-      <image src="/Frame6.svg" alt="Icon" />
+      <img src="/Frame6.svg" alt="Icon" />
       <Text>Welcome to your Dashboard</Text>
       <Flex justifyContent="space-between">
         <Box flex="3">
