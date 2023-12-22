@@ -84,7 +84,6 @@ const SalesOverview = () => {
   alignItems="center"
 >
   <FaArrowCircleLeft color="gray" size={20} />
-  {/* Your Box component with months goes here */}
   <Box
     ml="10px"
     boxShadow="0 -5px 5px -5px rgba(0, 0, 0, 0.4)"
