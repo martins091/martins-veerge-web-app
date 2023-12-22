@@ -77,16 +77,24 @@ const SalesOverview = () => {
 >
   <FaArrowCircleLeft color="gray" size={20} />
   <Box
-    ml="10px" // Add some left margin to the icon
+  position="absolute"
+  top="53%"
+  left="5%"
+  display="flex"
+  alignItems="center"
+>
+  <FaArrowCircleLeft color="gray" size={20} />
+  {/* Your Box component with months goes here */}
+  <Box
+    ml="10px"
     boxShadow="0 -5px 5px -5px rgba(0, 0, 0, 0.4)"
     mt="12px"
-    ml="20px"
     fontWeight="bold"
     textColor="gray"
     display="flex"
-    alignItems="center" // Align items vertically in the center
+    alignItems="center"
   >
-    <Box mx="5px">Jan</Box> {/* Add margin on the left and right */}
+    <Box mx="5px">Jan</Box>
     <Box mx="5px">Feb</Box>
     <Box mx="5px">Mar</Box>
     <Box mx="5px">Apr</Box>
@@ -95,7 +103,9 @@ const SalesOverview = () => {
     <Box mx="5px">Jul</Box>
     <Box mx="5px">Aug</Box>
     <Box mx="5px">Sep</Box>
+  
   </Box>
+</Box>
 </Box>
 
             </Box>
